@@ -1,0 +1,401 @@
+variant,workload,query,n,run_id,result_count,ground_truth_count,exact_match,false_positives,false_negatives
+corrected_fdxt,high_high,access AND data,2,1,12,12,true,0,0
+corrected_fdxt,high_medium,computer AND security,2,1,9,9,true,0,0
+corrected_fdxt,medium_medium,computer AND software,2,1,10,10,true,0,0
+corrected_fdxt,medium_low,api AND application,2,1,6,6,true,0,0
+corrected_fdxt,low_low,application AND web,2,1,5,5,true,0,0
+corrected_fdxt,zero_result,application AND attack,2,1,0,0,true,0,0
+corrected_fdxt,n1_regression,access,1,1,21,21,true,0,0
+corrected_fdxt,n3_regression,computer AND security AND network,3,1,2,2,true,0,0
+c1_power2,high_high,access AND data,2,1,12,12,true,0,0
+c1_power2,high_medium,computer AND security,2,1,9,9,true,0,0
+c1_power2,medium_medium,computer AND software,2,1,10,10,true,0,0
+c1_power2,medium_low,api AND application,2,1,6,6,true,0,0
+c1_power2,low_low,application AND web,2,1,5,5,true,0,0
+c1_power2,zero_result,application AND attack,2,1,0,0,true,0,0
+c1_power2,n1_regression,access,1,1,21,21,true,0,0
+c1_power2,n3_regression,computer AND security AND network,3,1,2,2,true,0,0
+c1_sqrt,high_high,access AND data,2,1,12,12,true,0,0
+c1_sqrt,high_medium,computer AND security,2,1,9,9,true,0,0
+c1_sqrt,medium_medium,computer AND software,2,1,10,10,true,0,0
+c1_sqrt,medium_low,api AND application,2,1,6,6,true,0,0
+c1_sqrt,low_low,application AND web,2,1,5,5,true,0,0
+c1_sqrt,zero_result,application AND attack,2,1,0,0,true,0,0
+c1_sqrt,n1_regression,access,1,1,21,21,true,0,0
+c1_sqrt,n3_regression,computer AND security AND network,3,1,2,2,true,0,0
+c1_log,high_high,access AND data,2,1,12,12,true,0,0
+c1_log,high_medium,computer AND security,2,1,9,9,true,0,0
+c1_log,medium_medium,computer AND software,2,1,10,10,true,0,0
+c1_log,medium_low,api AND application,2,1,6,6,true,0,0
+c1_log,low_low,application AND web,2,1,5,5,true,0,0
+c1_log,zero_result,application AND attack,2,1,0,0,true,0,0
+c1_log,n1_regression,access,1,1,21,21,true,0,0
+c1_log,n3_regression,computer AND security AND network,3,1,2,2,true,0,0
+c1_hybrid,high_high,access AND data,2,1,12,12,true,0,0
+c1_hybrid,high_medium,computer AND security,2,1,9,9,true,0,0
+c1_hybrid,medium_medium,computer AND software,2,1,10,10,true,0,0
+c1_hybrid,medium_low,api AND application,2,1,6,6,true,0,0
+c1_hybrid,low_low,application AND web,2,1,5,5,true,0,0
+c1_hybrid,zero_result,application AND attack,2,1,0,0,true,0,0
+c1_hybrid,n1_regression,access,1,1,21,21,true,0,0
+c1_hybrid,n3_regression,computer AND security AND network,3,1,2,2,true,0,0
+corrected_fdxt,high_high,access AND data,2,2,12,12,true,0,0
+corrected_fdxt,high_medium,computer AND security,2,2,9,9,true,0,0
+corrected_fdxt,medium_medium,computer AND software,2,2,10,10,true,0,0
+corrected_fdxt,medium_low,api AND application,2,2,6,6,true,0,0
+corrected_fdxt,low_low,application AND web,2,2,5,5,true,0,0
+corrected_fdxt,zero_result,application AND attack,2,2,0,0,true,0,0
+corrected_fdxt,n1_regression,access,1,2,21,21,true,0,0
+corrected_fdxt,n3_regression,computer AND security AND network,3,2,2,2,true,0,0
+c1_power2,high_high,access AND data,2,2,12,12,true,0,0
+c1_power2,high_medium,computer AND security,2,2,9,9,true,0,0
+c1_power2,medium_medium,computer AND software,2,2,10,10,true,0,0
+c1_power2,medium_low,api AND application,2,2,6,6,true,0,0
+c1_power2,low_low,application AND web,2,2,5,5,true,0,0
+c1_power2,zero_result,application AND attack,2,2,0,0,true,0,0
+c1_power2,n1_regression,access,1,2,21,21,true,0,0
+c1_power2,n3_regression,computer AND security AND network,3,2,2,2,true,0,0
+c1_sqrt,high_high,access AND data,2,2,12,12,true,0,0
+c1_sqrt,high_medium,computer AND security,2,2,9,9,true,0,0
+c1_sqrt,medium_medium,computer AND software,2,2,10,10,true,0,0
+c1_sqrt,medium_low,api AND application,2,2,6,6,true,0,0
+c1_sqrt,low_low,application AND web,2,2,5,5,true,0,0
+c1_sqrt,zero_result,application AND attack,2,2,0,0,true,0,0
+c1_sqrt,n1_regression,access,1,2,21,21,true,0,0
+c1_sqrt,n3_regression,computer AND security AND network,3,2,2,2,true,0,0
+c1_log,high_high,access AND data,2,2,12,12,true,0,0
+c1_log,high_medium,computer AND security,2,2,9,9,true,0,0
+c1_log,medium_medium,computer AND software,2,2,10,10,true,0,0
+c1_log,medium_low,api AND application,2,2,6,6,true,0,0
+c1_log,low_low,application AND web,2,2,5,5,true,0,0
+c1_log,zero_result,application AND attack,2,2,0,0,true,0,0
+c1_log,n1_regression,access,1,2,21,21,true,0,0
+c1_log,n3_regression,computer AND security AND network,3,2,2,2,true,0,0
+c1_hybrid,high_high,access AND data,2,2,12,12,true,0,0
+c1_hybrid,high_medium,computer AND security,2,2,9,9,true,0,0
+c1_hybrid,medium_medium,computer AND software,2,2,10,10,true,0,0
+c1_hybrid,medium_low,api AND application,2,2,6,6,true,0,0
+c1_hybrid,low_low,application AND web,2,2,5,5,true,0,0
+c1_hybrid,zero_result,application AND attack,2,2,0,0,true,0,0
+c1_hybrid,n1_regression,access,1,2,21,21,true,0,0
+c1_hybrid,n3_regression,computer AND security AND network,3,2,2,2,true,0,0
+corrected_fdxt,high_high,access AND data,2,3,12,12,true,0,0
+corrected_fdxt,high_medium,computer AND security,2,3,9,9,true,0,0
+corrected_fdxt,medium_medium,computer AND software,2,3,10,10,true,0,0
+corrected_fdxt,medium_low,api AND application,2,3,6,6,true,0,0
+corrected_fdxt,low_low,application AND web,2,3,5,5,true,0,0
+corrected_fdxt,zero_result,application AND attack,2,3,0,0,true,0,0
+corrected_fdxt,n1_regression,access,1,3,21,21,true,0,0
+corrected_fdxt,n3_regression,computer AND security AND network,3,3,2,2,true,0,0
+c1_power2,high_high,access AND data,2,3,12,12,true,0,0
+c1_power2,high_medium,computer AND security,2,3,9,9,true,0,0
+c1_power2,medium_medium,computer AND software,2,3,10,10,true,0,0
+c1_power2,medium_low,api AND application,2,3,6,6,true,0,0
+c1_power2,low_low,application AND web,2,3,5,5,true,0,0
+c1_power2,zero_result,application AND attack,2,3,0,0,true,0,0
+c1_power2,n1_regression,access,1,3,21,21,true,0,0
+c1_power2,n3_regression,computer AND security AND network,3,3,2,2,true,0,0
+c1_sqrt,high_high,access AND data,2,3,12,12,true,0,0
+c1_sqrt,high_medium,computer AND security,2,3,9,9,true,0,0
+c1_sqrt,medium_medium,computer AND software,2,3,10,10,true,0,0
+c1_sqrt,medium_low,api AND application,2,3,6,6,true,0,0
+c1_sqrt,low_low,application AND web,2,3,5,5,true,0,0
+c1_sqrt,zero_result,application AND attack,2,3,0,0,true,0,0
+c1_sqrt,n1_regression,access,1,3,21,21,true,0,0
+c1_sqrt,n3_regression,computer AND security AND network,3,3,2,2,true,0,0
+c1_log,high_high,access AND data,2,3,12,12,true,0,0
+c1_log,high_medium,computer AND security,2,3,9,9,true,0,0
+c1_log,medium_medium,computer AND software,2,3,10,10,true,0,0
+c1_log,medium_low,api AND application,2,3,6,6,true,0,0
+c1_log,low_low,application AND web,2,3,5,5,true,0,0
+c1_log,zero_result,application AND attack,2,3,0,0,true,0,0
+c1_log,n1_regression,access,1,3,21,21,true,0,0
+c1_log,n3_regression,computer AND security AND network,3,3,2,2,true,0,0
+c1_hybrid,high_high,access AND data,2,3,12,12,true,0,0
+c1_hybrid,high_medium,computer AND security,2,3,9,9,true,0,0
+c1_hybrid,medium_medium,computer AND software,2,3,10,10,true,0,0
+c1_hybrid,medium_low,api AND application,2,3,6,6,true,0,0
+c1_hybrid,low_low,application AND web,2,3,5,5,true,0,0
+c1_hybrid,zero_result,application AND attack,2,3,0,0,true,0,0
+c1_hybrid,n1_regression,access,1,3,21,21,true,0,0
+c1_hybrid,n3_regression,computer AND security AND network,3,3,2,2,true,0,0
+corrected_fdxt,high_high,access AND data,2,4,12,12,true,0,0
+corrected_fdxt,high_medium,computer AND security,2,4,9,9,true,0,0
+corrected_fdxt,medium_medium,computer AND software,2,4,10,10,true,0,0
+corrected_fdxt,medium_low,api AND application,2,4,6,6,true,0,0
+corrected_fdxt,low_low,application AND web,2,4,5,5,true,0,0
+corrected_fdxt,zero_result,application AND attack,2,4,0,0,true,0,0
+corrected_fdxt,n1_regression,access,1,4,21,21,true,0,0
+corrected_fdxt,n3_regression,computer AND security AND network,3,4,2,2,true,0,0
+c1_power2,high_high,access AND data,2,4,12,12,true,0,0
+c1_power2,high_medium,computer AND security,2,4,9,9,true,0,0
+c1_power2,medium_medium,computer AND software,2,4,10,10,true,0,0
+c1_power2,medium_low,api AND application,2,4,6,6,true,0,0
+c1_power2,low_low,application AND web,2,4,5,5,true,0,0
+c1_power2,zero_result,application AND attack,2,4,0,0,true,0,0
+c1_power2,n1_regression,access,1,4,21,21,true,0,0
+c1_power2,n3_regression,computer AND security AND network,3,4,2,2,true,0,0
+c1_sqrt,high_high,access AND data,2,4,12,12,true,0,0
+c1_sqrt,high_medium,computer AND security,2,4,9,9,true,0,0
+c1_sqrt,medium_medium,computer AND software,2,4,10,10,true,0,0
+c1_sqrt,medium_low,api AND application,2,4,6,6,true,0,0
+c1_sqrt,low_low,application AND web,2,4,5,5,true,0,0
+c1_sqrt,zero_result,application AND attack,2,4,0,0,true,0,0
+c1_sqrt,n1_regression,access,1,4,21,21,true,0,0
+c1_sqrt,n3_regression,computer AND security AND network,3,4,2,2,true,0,0
+c1_log,high_high,access AND data,2,4,12,12,true,0,0
+c1_log,high_medium,computer AND security,2,4,9,9,true,0,0
+c1_log,medium_medium,computer AND software,2,4,10,10,true,0,0
+c1_log,medium_low,api AND application,2,4,6,6,true,0,0
+c1_log,low_low,application AND web,2,4,5,5,true,0,0
+c1_log,zero_result,application AND attack,2,4,0,0,true,0,0
+c1_log,n1_regression,access,1,4,21,21,true,0,0
+c1_log,n3_regression,computer AND security AND network,3,4,2,2,true,0,0
+c1_hybrid,high_high,access AND data,2,4,12,12,true,0,0
+c1_hybrid,high_medium,computer AND security,2,4,9,9,true,0,0
+c1_hybrid,medium_medium,computer AND software,2,4,10,10,true,0,0
+c1_hybrid,medium_low,api AND application,2,4,6,6,true,0,0
+c1_hybrid,low_low,application AND web,2,4,5,5,true,0,0
+c1_hybrid,zero_result,application AND attack,2,4,0,0,true,0,0
+c1_hybrid,n1_regression,access,1,4,21,21,true,0,0
+c1_hybrid,n3_regression,computer AND security AND network,3,4,2,2,true,0,0
+corrected_fdxt,high_high,access AND data,2,5,12,12,true,0,0
+corrected_fdxt,high_medium,computer AND security,2,5,9,9,true,0,0
+corrected_fdxt,medium_medium,computer AND software,2,5,10,10,true,0,0
+corrected_fdxt,medium_low,api AND application,2,5,6,6,true,0,0
+corrected_fdxt,low_low,application AND web,2,5,5,5,true,0,0
+corrected_fdxt,zero_result,application AND attack,2,5,0,0,true,0,0
+corrected_fdxt,n1_regression,access,1,5,21,21,true,0,0
+corrected_fdxt,n3_regression,computer AND security AND network,3,5,2,2,true,0,0
+c1_power2,high_high,access AND data,2,5,12,12,true,0,0
+c1_power2,high_medium,computer AND security,2,5,9,9,true,0,0
+c1_power2,medium_medium,computer AND software,2,5,10,10,true,0,0
+c1_power2,medium_low,api AND application,2,5,6,6,true,0,0
+c1_power2,low_low,application AND web,2,5,5,5,true,0,0
+c1_power2,zero_result,application AND attack,2,5,0,0,true,0,0
+c1_power2,n1_regression,access,1,5,21,21,true,0,0
+c1_power2,n3_regression,computer AND security AND network,3,5,2,2,true,0,0
+c1_sqrt,high_high,access AND data,2,5,12,12,true,0,0
+c1_sqrt,high_medium,computer AND security,2,5,9,9,true,0,0
+c1_sqrt,medium_medium,computer AND software,2,5,10,10,true,0,0
+c1_sqrt,medium_low,api AND application,2,5,6,6,true,0,0
+c1_sqrt,low_low,application AND web,2,5,5,5,true,0,0
+c1_sqrt,zero_result,application AND attack,2,5,0,0,true,0,0
+c1_sqrt,n1_regression,access,1,5,21,21,true,0,0
+c1_sqrt,n3_regression,computer AND security AND network,3,5,2,2,true,0,0
+c1_log,high_high,access AND data,2,5,12,12,true,0,0
+c1_log,high_medium,computer AND security,2,5,9,9,true,0,0
+c1_log,medium_medium,computer AND software,2,5,10,10,true,0,0
+c1_log,medium_low,api AND application,2,5,6,6,true,0,0
+c1_log,low_low,application AND web,2,5,5,5,true,0,0
+c1_log,zero_result,application AND attack,2,5,0,0,true,0,0
+c1_log,n1_regression,access,1,5,21,21,true,0,0
+c1_log,n3_regression,computer AND security AND network,3,5,2,2,true,0,0
+c1_hybrid,high_high,access AND data,2,5,12,12,true,0,0
+c1_hybrid,high_medium,computer AND security,2,5,9,9,true,0,0
+c1_hybrid,medium_medium,computer AND software,2,5,10,10,true,0,0
+c1_hybrid,medium_low,api AND application,2,5,6,6,true,0,0
+c1_hybrid,low_low,application AND web,2,5,5,5,true,0,0
+c1_hybrid,zero_result,application AND attack,2,5,0,0,true,0,0
+c1_hybrid,n1_regression,access,1,5,21,21,true,0,0
+c1_hybrid,n3_regression,computer AND security AND network,3,5,2,2,true,0,0
+corrected_fdxt,high_high,access AND data,2,6,12,12,true,0,0
+corrected_fdxt,high_medium,computer AND security,2,6,9,9,true,0,0
+corrected_fdxt,medium_medium,computer AND software,2,6,10,10,true,0,0
+corrected_fdxt,medium_low,api AND application,2,6,6,6,true,0,0
+corrected_fdxt,low_low,application AND web,2,6,5,5,true,0,0
+corrected_fdxt,zero_result,application AND attack,2,6,0,0,true,0,0
+corrected_fdxt,n1_regression,access,1,6,21,21,true,0,0
+corrected_fdxt,n3_regression,computer AND security AND network,3,6,2,2,true,0,0
+c1_power2,high_high,access AND data,2,6,12,12,true,0,0
+c1_power2,high_medium,computer AND security,2,6,9,9,true,0,0
+c1_power2,medium_medium,computer AND software,2,6,10,10,true,0,0
+c1_power2,medium_low,api AND application,2,6,6,6,true,0,0
+c1_power2,low_low,application AND web,2,6,5,5,true,0,0
+c1_power2,zero_result,application AND attack,2,6,0,0,true,0,0
+c1_power2,n1_regression,access,1,6,21,21,true,0,0
+c1_power2,n3_regression,computer AND security AND network,3,6,2,2,true,0,0
+c1_sqrt,high_high,access AND data,2,6,12,12,true,0,0
+c1_sqrt,high_medium,computer AND security,2,6,9,9,true,0,0
+c1_sqrt,medium_medium,computer AND software,2,6,10,10,true,0,0
+c1_sqrt,medium_low,api AND application,2,6,6,6,true,0,0
+c1_sqrt,low_low,application AND web,2,6,5,5,true,0,0
+c1_sqrt,zero_result,application AND attack,2,6,0,0,true,0,0
+c1_sqrt,n1_regression,access,1,6,21,21,true,0,0
+c1_sqrt,n3_regression,computer AND security AND network,3,6,2,2,true,0,0
+c1_log,high_high,access AND data,2,6,12,12,true,0,0
+c1_log,high_medium,computer AND security,2,6,9,9,true,0,0
+c1_log,medium_medium,computer AND software,2,6,10,10,true,0,0
+c1_log,medium_low,api AND application,2,6,6,6,true,0,0
+c1_log,low_low,application AND web,2,6,5,5,true,0,0
+c1_log,zero_result,application AND attack,2,6,0,0,true,0,0
+c1_log,n1_regression,access,1,6,21,21,true,0,0
+c1_log,n3_regression,computer AND security AND network,3,6,2,2,true,0,0
+c1_hybrid,high_high,access AND data,2,6,12,12,true,0,0
+c1_hybrid,high_medium,computer AND security,2,6,9,9,true,0,0
+c1_hybrid,medium_medium,computer AND software,2,6,10,10,true,0,0
+c1_hybrid,medium_low,api AND application,2,6,6,6,true,0,0
+c1_hybrid,low_low,application AND web,2,6,5,5,true,0,0
+c1_hybrid,zero_result,application AND attack,2,6,0,0,true,0,0
+c1_hybrid,n1_regression,access,1,6,21,21,true,0,0
+c1_hybrid,n3_regression,computer AND security AND network,3,6,2,2,true,0,0
+corrected_fdxt,high_high,access AND data,2,7,12,12,true,0,0
+corrected_fdxt,high_medium,computer AND security,2,7,9,9,true,0,0
+corrected_fdxt,medium_medium,computer AND software,2,7,10,10,true,0,0
+corrected_fdxt,medium_low,api AND application,2,7,6,6,true,0,0
+corrected_fdxt,low_low,application AND web,2,7,5,5,true,0,0
+corrected_fdxt,zero_result,application AND attack,2,7,0,0,true,0,0
+corrected_fdxt,n1_regression,access,1,7,21,21,true,0,0
+corrected_fdxt,n3_regression,computer AND security AND network,3,7,2,2,true,0,0
+c1_power2,high_high,access AND data,2,7,12,12,true,0,0
+c1_power2,high_medium,computer AND security,2,7,9,9,true,0,0
+c1_power2,medium_medium,computer AND software,2,7,10,10,true,0,0
+c1_power2,medium_low,api AND application,2,7,6,6,true,0,0
+c1_power2,low_low,application AND web,2,7,5,5,true,0,0
+c1_power2,zero_result,application AND attack,2,7,0,0,true,0,0
+c1_power2,n1_regression,access,1,7,21,21,true,0,0
+c1_power2,n3_regression,computer AND security AND network,3,7,2,2,true,0,0
+c1_sqrt,high_high,access AND data,2,7,12,12,true,0,0
+c1_sqrt,high_medium,computer AND security,2,7,9,9,true,0,0
+c1_sqrt,medium_medium,computer AND software,2,7,10,10,true,0,0
+c1_sqrt,medium_low,api AND application,2,7,6,6,true,0,0
+c1_sqrt,low_low,application AND web,2,7,5,5,true,0,0
+c1_sqrt,zero_result,application AND attack,2,7,0,0,true,0,0
+c1_sqrt,n1_regression,access,1,7,21,21,true,0,0
+c1_sqrt,n3_regression,computer AND security AND network,3,7,2,2,true,0,0
+c1_log,high_high,access AND data,2,7,12,12,true,0,0
+c1_log,high_medium,computer AND security,2,7,9,9,true,0,0
+c1_log,medium_medium,computer AND software,2,7,10,10,true,0,0
+c1_log,medium_low,api AND application,2,7,6,6,true,0,0
+c1_log,low_low,application AND web,2,7,5,5,true,0,0
+c1_log,zero_result,application AND attack,2,7,0,0,true,0,0
+c1_log,n1_regression,access,1,7,21,21,true,0,0
+c1_log,n3_regression,computer AND security AND network,3,7,2,2,true,0,0
+c1_hybrid,high_high,access AND data,2,7,12,12,true,0,0
+c1_hybrid,high_medium,computer AND security,2,7,9,9,true,0,0
+c1_hybrid,medium_medium,computer AND software,2,7,10,10,true,0,0
+c1_hybrid,medium_low,api AND application,2,7,6,6,true,0,0
+c1_hybrid,low_low,application AND web,2,7,5,5,true,0,0
+c1_hybrid,zero_result,application AND attack,2,7,0,0,true,0,0
+c1_hybrid,n1_regression,access,1,7,21,21,true,0,0
+c1_hybrid,n3_regression,computer AND security AND network,3,7,2,2,true,0,0
+corrected_fdxt,high_high,access AND data,2,8,12,12,true,0,0
+corrected_fdxt,high_medium,computer AND security,2,8,9,9,true,0,0
+corrected_fdxt,medium_medium,computer AND software,2,8,10,10,true,0,0
+corrected_fdxt,medium_low,api AND application,2,8,6,6,true,0,0
+corrected_fdxt,low_low,application AND web,2,8,5,5,true,0,0
+corrected_fdxt,zero_result,application AND attack,2,8,0,0,true,0,0
+corrected_fdxt,n1_regression,access,1,8,21,21,true,0,0
+corrected_fdxt,n3_regression,computer AND security AND network,3,8,2,2,true,0,0
+c1_power2,high_high,access AND data,2,8,12,12,true,0,0
+c1_power2,high_medium,computer AND security,2,8,9,9,true,0,0
+c1_power2,medium_medium,computer AND software,2,8,10,10,true,0,0
+c1_power2,medium_low,api AND application,2,8,6,6,true,0,0
+c1_power2,low_low,application AND web,2,8,5,5,true,0,0
+c1_power2,zero_result,application AND attack,2,8,0,0,true,0,0
+c1_power2,n1_regression,access,1,8,21,21,true,0,0
+c1_power2,n3_regression,computer AND security AND network,3,8,2,2,true,0,0
+c1_sqrt,high_high,access AND data,2,8,12,12,true,0,0
+c1_sqrt,high_medium,computer AND security,2,8,9,9,true,0,0
+c1_sqrt,medium_medium,computer AND software,2,8,10,10,true,0,0
+c1_sqrt,medium_low,api AND application,2,8,6,6,true,0,0
+c1_sqrt,low_low,application AND web,2,8,5,5,true,0,0
+c1_sqrt,zero_result,application AND attack,2,8,0,0,true,0,0
+c1_sqrt,n1_regression,access,1,8,21,21,true,0,0
+c1_sqrt,n3_regression,computer AND security AND network,3,8,2,2,true,0,0
+c1_log,high_high,access AND data,2,8,12,12,true,0,0
+c1_log,high_medium,computer AND security,2,8,9,9,true,0,0
+c1_log,medium_medium,computer AND software,2,8,10,10,true,0,0
+c1_log,medium_low,api AND application,2,8,6,6,true,0,0
+c1_log,low_low,application AND web,2,8,5,5,true,0,0
+c1_log,zero_result,application AND attack,2,8,0,0,true,0,0
+c1_log,n1_regression,access,1,8,21,21,true,0,0
+c1_log,n3_regression,computer AND security AND network,3,8,2,2,true,0,0
+c1_hybrid,high_high,access AND data,2,8,12,12,true,0,0
+c1_hybrid,high_medium,computer AND security,2,8,9,9,true,0,0
+c1_hybrid,medium_medium,computer AND software,2,8,10,10,true,0,0
+c1_hybrid,medium_low,api AND application,2,8,6,6,true,0,0
+c1_hybrid,low_low,application AND web,2,8,5,5,true,0,0
+c1_hybrid,zero_result,application AND attack,2,8,0,0,true,0,0
+c1_hybrid,n1_regression,access,1,8,21,21,true,0,0
+c1_hybrid,n3_regression,computer AND security AND network,3,8,2,2,true,0,0
+corrected_fdxt,high_high,access AND data,2,9,12,12,true,0,0
+corrected_fdxt,high_medium,computer AND security,2,9,9,9,true,0,0
+corrected_fdxt,medium_medium,computer AND software,2,9,10,10,true,0,0
+corrected_fdxt,medium_low,api AND application,2,9,6,6,true,0,0
+corrected_fdxt,low_low,application AND web,2,9,5,5,true,0,0
+corrected_fdxt,zero_result,application AND attack,2,9,0,0,true,0,0
+corrected_fdxt,n1_regression,access,1,9,21,21,true,0,0
+corrected_fdxt,n3_regression,computer AND security AND network,3,9,2,2,true,0,0
+c1_power2,high_high,access AND data,2,9,12,12,true,0,0
+c1_power2,high_medium,computer AND security,2,9,9,9,true,0,0
+c1_power2,medium_medium,computer AND software,2,9,10,10,true,0,0
+c1_power2,medium_low,api AND application,2,9,6,6,true,0,0
+c1_power2,low_low,application AND web,2,9,5,5,true,0,0
+c1_power2,zero_result,application AND attack,2,9,0,0,true,0,0
+c1_power2,n1_regression,access,1,9,21,21,true,0,0
+c1_power2,n3_regression,computer AND security AND network,3,9,2,2,true,0,0
+c1_sqrt,high_high,access AND data,2,9,12,12,true,0,0
+c1_sqrt,high_medium,computer AND security,2,9,9,9,true,0,0
+c1_sqrt,medium_medium,computer AND software,2,9,10,10,true,0,0
+c1_sqrt,medium_low,api AND application,2,9,6,6,true,0,0
+c1_sqrt,low_low,application AND web,2,9,5,5,true,0,0
+c1_sqrt,zero_result,application AND attack,2,9,0,0,true,0,0
+c1_sqrt,n1_regression,access,1,9,21,21,true,0,0
+c1_sqrt,n3_regression,computer AND security AND network,3,9,2,2,true,0,0
+c1_log,high_high,access AND data,2,9,12,12,true,0,0
+c1_log,high_medium,computer AND security,2,9,9,9,true,0,0
+c1_log,medium_medium,computer AND software,2,9,10,10,true,0,0
+c1_log,medium_low,api AND application,2,9,6,6,true,0,0
+c1_log,low_low,application AND web,2,9,5,5,true,0,0
+c1_log,zero_result,application AND attack,2,9,0,0,true,0,0
+c1_log,n1_regression,access,1,9,21,21,true,0,0
+c1_log,n3_regression,computer AND security AND network,3,9,2,2,true,0,0
+c1_hybrid,high_high,access AND data,2,9,12,12,true,0,0
+c1_hybrid,high_medium,computer AND security,2,9,9,9,true,0,0
+c1_hybrid,medium_medium,computer AND software,2,9,10,10,true,0,0
+c1_hybrid,medium_low,api AND application,2,9,6,6,true,0,0
+c1_hybrid,low_low,application AND web,2,9,5,5,true,0,0
+c1_hybrid,zero_result,application AND attack,2,9,0,0,true,0,0
+c1_hybrid,n1_regression,access,1,9,21,21,true,0,0
+c1_hybrid,n3_regression,computer AND security AND network,3,9,2,2,true,0,0
+corrected_fdxt,high_high,access AND data,2,10,12,12,true,0,0
+corrected_fdxt,high_medium,computer AND security,2,10,9,9,true,0,0
+corrected_fdxt,medium_medium,computer AND software,2,10,10,10,true,0,0
+corrected_fdxt,medium_low,api AND application,2,10,6,6,true,0,0
+corrected_fdxt,low_low,application AND web,2,10,5,5,true,0,0
+corrected_fdxt,zero_result,application AND attack,2,10,0,0,true,0,0
+corrected_fdxt,n1_regression,access,1,10,21,21,true,0,0
+corrected_fdxt,n3_regression,computer AND security AND network,3,10,2,2,true,0,0
+c1_power2,high_high,access AND data,2,10,12,12,true,0,0
+c1_power2,high_medium,computer AND security,2,10,9,9,true,0,0
+c1_power2,medium_medium,computer AND software,2,10,10,10,true,0,0
+c1_power2,medium_low,api AND application,2,10,6,6,true,0,0
+c1_power2,low_low,application AND web,2,10,5,5,true,0,0
+c1_power2,zero_result,application AND attack,2,10,0,0,true,0,0
+c1_power2,n1_regression,access,1,10,21,21,true,0,0
+c1_power2,n3_regression,computer AND security AND network,3,10,2,2,true,0,0
+c1_sqrt,high_high,access AND data,2,10,12,12,true,0,0
+c1_sqrt,high_medium,computer AND security,2,10,9,9,true,0,0
+c1_sqrt,medium_medium,computer AND software,2,10,10,10,true,0,0
+c1_sqrt,medium_low,api AND application,2,10,6,6,true,0,0
+c1_sqrt,low_low,application AND web,2,10,5,5,true,0,0
+c1_sqrt,zero_result,application AND attack,2,10,0,0,true,0,0
+c1_sqrt,n1_regression,access,1,10,21,21,true,0,0
+c1_sqrt,n3_regression,computer AND security AND network,3,10,2,2,true,0,0
+c1_log,high_high,access AND data,2,10,12,12,true,0,0
+c1_log,high_medium,computer AND security,2,10,9,9,true,0,0
+c1_log,medium_medium,computer AND software,2,10,10,10,true,0,0
+c1_log,medium_low,api AND application,2,10,6,6,true,0,0
+c1_log,low_low,application AND web,2,10,5,5,true,0,0
+c1_log,zero_result,application AND attack,2,10,0,0,true,0,0
+c1_log,n1_regression,access,1,10,21,21,true,0,0
+c1_log,n3_regression,computer AND security AND network,3,10,2,2,true,0,0
+c1_hybrid,high_high,access AND data,2,10,12,12,true,0,0
+c1_hybrid,high_medium,computer AND security,2,10,9,9,true,0,0
+c1_hybrid,medium_medium,computer AND software,2,10,10,10,true,0,0
+c1_hybrid,medium_low,api AND application,2,10,6,6,true,0,0
+c1_hybrid,low_low,application AND web,2,10,5,5,true,0,0
+c1_hybrid,zero_result,application AND attack,2,10,0,0,true,0,0
+c1_hybrid,n1_regression,access,1,10,21,21,true,0,0
+c1_hybrid,n3_regression,computer AND security AND network,3,10,2,2,true,0,0

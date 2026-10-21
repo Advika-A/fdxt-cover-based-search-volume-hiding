@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package fdxt;
+option go_package = "fdxt-poc/internal/grpcproto";
+
+message TKLEntry {
+  bytes l = 1;
+  bytes t = 2;
+}
+message XTKEntry {
+  string keyword = 1;
+  bytes element = 2;
+}
+message XTKRow {
+  bytes addr = 1;
+  repeated XTKEntry xtk = 2;
+}
+message SearchRequest {
+  repeated TKLEntry tkl = 1;
+  repeated XTKRow rows = 2;
+  repeated string rest_keywords = 3;
+  // Reserved for compatibility with earlier POC builds. C1 state is never
+  // populated: cover material is provisioned in the encrypted index and the
+  // server receives only ordinary-looking TKL/row structures.
+  bytes c1_state = 4;
+  uint32 c1_max_cover = 5;
+}
+message SearchOutput {
+  bytes val = 1;
+  uint32 cnt = 2;
+  bytes addr = 3;
+}
+message SearchResponse {
+  repeated SearchOutput outputs = 1;
+}
+service FDXT {
+  rpc Search(SearchRequest) returns (SearchResponse);
+}

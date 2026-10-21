@@ -1,0 +1,39 @@
+
+# FDXT runtime state
+# Contains client/server state, generated TLS certificates and private keys
+/state/
+
+# Compiled Go binaries
+/fdxt-experiment
+/fdxt
+/server
+/client
+/demo
+/setup
+/experiment
+/cli
+*.exe
+*.test
+
+# Go test and coverage outputs
+coverage.out
+coverage.html
+*.prof
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
+*~

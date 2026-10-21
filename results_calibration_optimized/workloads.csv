@@ -1,0 +1,9 @@
+workload,query,n,ground_truth_count
+high_high,access AND data,2,12
+high_medium,computer AND security,2,9
+low_low,application AND web,2,5
+medium_low,api AND application,2,6
+medium_medium,computer AND software,2,10
+n1_regression,access,1,21
+n3_regression,computer AND security AND network,3,2
+zero_result,application AND attack,2,0

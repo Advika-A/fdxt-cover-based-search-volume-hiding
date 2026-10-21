@@ -1,0 +1,41 @@
+variant,workload,query,n,run_id,result_count,ground_truth_count,exact_match,false_positives,false_negatives
+corrected_fdxt,high_high,access AND data,2,1,12,12,true,0,0
+corrected_fdxt,high_medium,computer AND security,2,1,9,9,true,0,0
+corrected_fdxt,medium_medium,computer AND software,2,1,10,10,true,0,0
+corrected_fdxt,medium_low,api AND application,2,1,6,6,true,0,0
+corrected_fdxt,low_low,application AND web,2,1,5,5,true,0,0
+corrected_fdxt,zero_result,application AND attack,2,1,0,0,true,0,0
+corrected_fdxt,n1_regression,access,1,1,21,21,true,0,0
+corrected_fdxt,n3_regression,computer AND security AND network,3,1,2,2,true,0,0
+c1_power2,high_high,access AND data,2,1,12,12,true,0,0
+c1_power2,high_medium,computer AND security,2,1,9,9,true,0,0
+c1_power2,medium_medium,computer AND software,2,1,10,10,true,0,0
+c1_power2,medium_low,api AND application,2,1,6,6,true,0,0
+c1_power2,low_low,application AND web,2,1,5,5,true,0,0
+c1_power2,zero_result,application AND attack,2,1,0,0,true,0,0
+c1_power2,n1_regression,access,1,1,21,21,true,0,0
+c1_power2,n3_regression,computer AND security AND network,3,1,2,2,true,0,0
+c1_sqrt,high_high,access AND data,2,1,12,12,true,0,0
+c1_sqrt,high_medium,computer AND security,2,1,9,9,true,0,0
+c1_sqrt,medium_medium,computer AND software,2,1,10,10,true,0,0
+c1_sqrt,medium_low,api AND application,2,1,6,6,true,0,0
+c1_sqrt,low_low,application AND web,2,1,5,5,true,0,0
+c1_sqrt,zero_result,application AND attack,2,1,0,0,true,0,0
+c1_sqrt,n1_regression,access,1,1,21,21,true,0,0
+c1_sqrt,n3_regression,computer AND security AND network,3,1,2,2,true,0,0
+c1_log,high_high,access AND data,2,1,12,12,true,0,0
+c1_log,high_medium,computer AND security,2,1,9,9,true,0,0
+c1_log,medium_medium,computer AND software,2,1,10,10,true,0,0
+c1_log,medium_low,api AND application,2,1,6,6,true,0,0
+c1_log,low_low,application AND web,2,1,5,5,true,0,0
+c1_log,zero_result,application AND attack,2,1,0,0,true,0,0
+c1_log,n1_regression,access,1,1,21,21,true,0,0
+c1_log,n3_regression,computer AND security AND network,3,1,2,2,true,0,0
+c1_hybrid,high_high,access AND data,2,1,12,12,true,0,0
+c1_hybrid,high_medium,computer AND security,2,1,9,9,true,0,0
+c1_hybrid,medium_medium,computer AND software,2,1,10,10,true,0,0
+c1_hybrid,medium_low,api AND application,2,1,6,6,true,0,0
+c1_hybrid,low_low,application AND web,2,1,5,5,true,0,0
+c1_hybrid,zero_result,application AND attack,2,1,0,0,true,0,0
+c1_hybrid,n1_regression,access,1,1,21,21,true,0,0
+c1_hybrid,n3_regression,computer AND security AND network,3,1,2,2,true,0,0
